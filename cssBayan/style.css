@@ -1,0 +1,92 @@
+
+body {
+    background-color: lemonchiffon;
+}
+
+.task-name {
+    margin: 20px 50px;
+}
+
+.hr-line {
+    margin: 20px 50px;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
+
+
+.phrazes {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    flex-direction: column;
+    padding: 0px 50px 20px 50px;
+    color: black;
+    /* background-color:aqua; */
+  }
+
+  .phraze-item {
+    padding: 20px 20px 20px 20px;
+    height: 20px;
+  }
+
+  img.mem {
+    width: 33%; height: auto;
+  }
+  a.mem1 {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Fredoka One';
+    color:blue; 
+  }
+  a.text1 {
+    color:black; 
+  }
+  
+  a.text1:hover {
+    color:black; 
+  }
+  a.text1:link {
+    color:black; 
+  }
+
+  a.mem1:hover {
+    color:black; 
+    /* border-bottom: .07em solid; */
+  }
+
+  a.mem1:link {
+    color:blue; 
+    /* border-bottom: 2px solid transparent;  */
+  }
+
+  div.accordion:hover a.icon1 {
+    display: block;
+  }
+  div.accordion:hover a.icon {
+    display: block;
+  }
+
+  div.accordion:hover a.text {
+    color:black; 
+  }
+
+  a.icon1:link {
+    display: none;
+  }
+
+  a.mem:link {
+    display: none;
+  }
+  a.icon:link {
+    display: none;
+  }
+
+  .bayan-icons {
+    display: inline;
+    padding: 20px 0 20px 80%;
+  }
