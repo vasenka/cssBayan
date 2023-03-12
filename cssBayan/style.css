@@ -30,12 +30,34 @@ body {
     height: 20px;
   }
 
-  img.mem {
-    width: 33%; height: auto;
-  }
-  a.mem1 {
+ /* Centering */
+  div.mem1 {
     text-align: center;
   }
+  div.mem2 {
+    text-align: center;
+  }
+  div.mem3 {
+    text-align: center;
+  }
+  div.mem4 {
+    text-align: center;
+  }
+  div.mem5 {
+    text-align: center;
+  }
+ 
+  img {
+    width: 33%; height: auto;
+  }
+
+ 
+  /* Clicking ************************************ */
+  /* a.mem2:active {
+
+  } */
+
+
 
   a {
     text-decoration: none;
@@ -79,12 +101,90 @@ body {
     display: none;
   }
 
+  /* Hovering on phraze2 */
+  div.phraze2:hover a.mem2 {
+    display:block;   
+  }
+  div.phraze2:hover a.icon2 {
+    display:block;  
+  }
+  div.phraze2:hover a.icon {
+    display:none;  
+  }
+  /* _____________ */
+
+  /* Hovering on phraze3 */
+  div.phraze3:hover a.mem3 {
+    display:block;   
+  }
+  div.phraze3:hover a.icon3 {
+    display:block;  
+  }
+  div.phraze3:hover a.icon {
+    display:none;  
+  }
+  /* _____________ */
+
+  /* Hovering on phraze4 */
+  div.phraze4:hover a.mem4 {
+    display:block;   
+  }
+  div.phraze4:hover a.icon4 {
+    display:block;  
+  }
+  div.phraze4:hover a.icon {
+    display:none;  
+  }
+  /* _____________ */
+
+  /* Hovering on phraze5 */
+  div.phraze5:hover a.mem5 {
+    display:block;   
+  }
+  div.phraze5:hover a.icon5 {
+    display:block;  
+  }
+  div.phraze5:hover a.icon {
+    display:none;  
+  }
+  /* _____________ */
+
+
+ 
   a.mem:link {
     display: none;
   }
+
+  a.mem2:link {
+    display: none;
+  }
+  a.mem3:link {
+    display: none;
+  }
+  a.mem4:link {
+    display: none;
+  }
+  a.mem5:link {
+    display: none;
+  }
+  
   a.icon:link {
     display: none;
   }
+  a.icon2:link {
+    display: none;
+  }
+  a.icon3:link {
+    display: none;
+  }
+  a.icon4:link {
+    display: none;
+  }
+  a.icon5:link {
+    display: none;
+  }
+
+  
 
   .bayan-icons {
     display: inline;
