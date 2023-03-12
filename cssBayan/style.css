@@ -1,5 +1,13 @@
 
 body {
+    background-color: white;
+}
+
+.page {
+    background-color: white; 
+    padding: 50px 50px;
+}
+.accordion {
     background-color: lemonchiffon;
 }
 
@@ -53,11 +61,13 @@ body {
 
  
   /* Clicking ************************************ */
-  /* a.mem2:active {
-
+  /* input.mem1[type="checkbox"] {
+    content: url('assets/img1.jpeg');
+    width: 33%; height: auto;
+  }
+  input.mem1[type="checkbox"]:checked {
+    content: url('assets/img2.jpeg');
   } */
-
-
 
   a {
     text-decoration: none;
